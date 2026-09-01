@@ -26,10 +26,15 @@
             "id": "208c6cd915aaefd2",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "anotacoes/plano de estudos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "plano de estudos"
             }
           },
           {
@@ -136,22 +141,6 @@
           }
         ],
         "currentTab": 3
-      },
-      {
-        "id": "8690b15f251985d2",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "95d1c939de81c5c0",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          }
-        ]
       }
     ],
     "direction": "horizontal",
@@ -165,26 +154,6 @@
         "id": "040c3fbe8594b1ec",
         "type": "tabs",
         "children": [
-          {
-            "id": "076095e195ae4a82",
-            "type": "leaf",
-            "state": {
-              "type": "oz-calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "oz-calendar"
-            }
-          },
-          {
-            "id": "1be2b055b1e94437",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
-            }
-          },
           {
             "id": "72546342dc2e9163",
             "type": "leaf",
@@ -205,10 +174,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "notas_bibliograficas/💼 carreira/cursos_longos/FIAP/modulo2/banco de dados/banco_de_dados_relacionais/aula 2 - SGBD relacional.md"
+                "file": "anotacoes/plano de estudos.md"
               },
               "icon": "lucide-info",
-              "title": "File properties for aula 2 - SGBD relacional"
+              "title": "File properties"
             }
           },
           {
@@ -217,7 +186,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas_bibliograficas/💼 carreira/cursos_longos/FIAP/modulo2/qualidade_de_software/01-Qualidade-de-software.md",
+                "file": "anotacoes/plano de estudos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -227,7 +196,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para 01-Qualidade-de-software"
+              "title": "Backlinks"
             }
           },
           {
@@ -236,12 +205,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas_bibliograficas/💼 carreira/cursos_longos/FIAP/modulo2/img/Pasted image 20250616162303.png",
+                "file": "anotacoes/plano de estudos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Pasted image 20250616162303"
+              "title": "Outgoing links"
             }
           },
           {
@@ -250,73 +219,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas_bibliograficas/💼 carreira/cursos_longos/FIAP/modulo2/banco de dados/banco_de_dados_relacionais/aula 2 - SGBD relacional.md",
+                "file": "anotacoes/plano de estudos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of aula 2 - SGBD relacional"
-            }
-          },
-          {
-            "id": "0ba9d5dfb8dd8fb4",
-            "type": "leaf",
-            "state": {
-              "type": "oz-calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "oz-calendar"
-            }
-          },
-          {
-            "id": "375087e779dcd9f8",
-            "type": "leaf",
-            "state": {
-              "type": "oz-calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "oz-calendar"
-            }
-          },
-          {
-            "id": "af54788bc84e08d7",
-            "type": "leaf",
-            "state": {
-              "type": "oz-calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "oz-calendar"
-            }
-          },
-          {
-            "id": "7030f5a28380b68a",
-            "type": "leaf",
-            "state": {
-              "type": "oz-calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "oz-calendar"
-            }
-          },
-          {
-            "id": "970fe7c7558c62cd",
-            "type": "leaf",
-            "state": {
-              "type": "oz-calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "oz-calendar"
-            }
-          },
-          {
-            "id": "64b915d2dc3632ab",
-            "type": "leaf",
-            "state": {
-              "type": "oz-calendar",
-              "state": {},
-              "icon": "OZCAL_ICON",
-              "title": "OZ Calendar"
+              "title": "Outline"
             }
           },
           {
@@ -330,7 +239,23 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 5
+      },
+      {
+        "id": "04abb1bbfe368fd5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95d1c939de81c5c0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -355,26 +280,30 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "208c6cd915aaefd2",
+  "active": "2a94081eb84fb2b5",
   "lastOpenFiles": [
+    "codigo/Welcome.md",
+    "codigo/README.md",
+    "codigo/Program.cs",
+    "codigo/ProductsApi.csproj",
+    "codigo/appsettings.json",
+    "codigo/Services/TokenService.cs",
+    "codigo/Services",
+    "codigo/obj/Debug/net8.0/refint/ProductsApi.dll",
+    "codigo/obj/Debug/net8.0/ref/ProductsApi.dll",
+    "codigo/obj/Release/net8.0/ProductsApi.GeneratedMSBuildEditorConfig.editorconfig",
+    "codigo/obj/Release/net8.0/ProductsApi.GlobalUsings.g.cs",
+    "codigo/obj/Release/net8.0/ProductsApi.csproj.AssemblyReference.cache",
+    "anotacoes/plano de estudos.md",
     "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
     "documentacao/1-API REST CRUD básica.md",
     "documentacao/0-plano de estudos.md",
     "documentacao/3-segurança na api.md",
     "README.md",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/service/bookService.java",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/repository/BookRepository.java",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/entity/Book.java",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/controller/bookController.java",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/service",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/repository",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/entity",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/controller",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book",
-    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/estudo1/validation/SkuFormatValidator.java",
     "notas_bibliograficas/cursos_curtos/autodidata/autodidata.md",
     "notas_bibliograficas/cursos_curtos/autodidata/Core Web Vitals/part_1_levantamento_de_informacoes.md",
     "notas_bibliograficas/cursos_curtos/autodidata/desing/Design atômico.md",
@@ -393,9 +322,6 @@
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/Process Modeling/Identidade e Acesso.md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/Process Modeling/personalização de noticias.md",
     "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/Process Modeling/personalizacao de sugestoes de investimento para o usuário.md",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/1-Definição de Domínio do Projeto.md",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/2-contextos delimitados(bounded context).md",
-    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/big picture.md",
     "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210721.png",
     "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210654.png",
     "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210442.png",
