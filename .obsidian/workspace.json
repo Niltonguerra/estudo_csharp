@@ -296,6 +296,7 @@
   },
   "active": "2a94081eb84fb2b5",
   "lastOpenFiles": [
+    "codigo/src/modules/products/application/DTOs",
     "codigo/obj/Debug/net8.0/dfhggaqv.pt5~",
     "codigo/src/modules/products/infrastructure/persistence/Configurations/ProductConfiguration.cs",
     "codigo/src/modules/products/infrastructure/persistence/Configurations",
@@ -306,7 +307,6 @@
     "codigo/src/modules/products/infrastructure/Persistence",
     "codigo/src/modules/products/infrastructure/Messaging",
     "codigo/src/modules/products/infrastructure/cache",
-    "codigo/src/modules/products/infrastructure",
     "codigo/Welcome.md",
     "codigo/README.md",
     "anotacoes/plano de estudos.md",
