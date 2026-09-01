@@ -249,7 +249,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "04abb1bbfe368fd5",
@@ -296,17 +296,17 @@
   },
   "active": "2a94081eb84fb2b5",
   "lastOpenFiles": [
+    "codigo/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
+    "codigo/bin/Debug/net8.0/Npgsql.dll",
+    "codigo/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll",
+    "codigo/obj/Debug/net8.0/ProductsApi.csproj.AssemblyReference.cache",
+    "codigo/obj/a71dc4f6-a54f-4faa-a7ef-a3aed1efc2c4.tmp",
+    "codigo/obj/bff20186-ae39-4dc9-a8ec-96c9d2d10488.tmp",
+    "codigo/obj/cc714add-bf73-41db-beed-47d4c47291dc.tmp",
+    "codigo/obj/e3af0a97-dafa-4b67-ba87-e31326dd3c92.tmp",
+    "codigo/xvtd0lbc.52b~",
     "anotacoes/doc_endpoints/estudos_csharp/opencollection.yml",
     "anotacoes/doc_endpoints/estudos_csharp",
-    "anotacoes/doc_endpoints",
-    "anotacoes/Nova pasta",
-    "codigo/obj/Debug/net8.0/ProductsApi.csproj.AssemblyReference.cache",
-    "codigo/bin/Debug/net8.0/ProductsApi",
-    "codigo/bin/Debug/net8.0/FluentValidation.dll",
-    "codigo/bin/Debug/net8.0/MediatR.dll",
-    "codigo/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll",
-    "codigo/bin/Debug/net8.0/MediatR.Contracts.dll",
-    "codigo/bin/Debug/net8.0/FluentValidation.AspNetCore.dll",
     "codigo/Welcome.md",
     "codigo/README.md",
     "anotacoes/plano de estudos.md",

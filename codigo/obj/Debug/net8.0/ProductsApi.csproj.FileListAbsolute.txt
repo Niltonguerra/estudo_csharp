@@ -125,3 +125,6 @@ C:/Users/nilto/OneDrive/Documentos/00-arquivos/repositorios/estudo_csharp/codigo
 /src/obj/Debug/net8.0/ProductsApi.pdb
 /src/obj/Debug/net8.0/ProductsApi.genruntimeconfig.cache
 /src/obj/Debug/net8.0/ref/ProductsApi.dll
+/src/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Relational.dll
+/src/bin/Debug/net8.0/Npgsql.dll
+/src/bin/Debug/net8.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll

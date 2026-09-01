@@ -18,7 +18,8 @@ up: ## Sobe todos os containers (producao)
 	docker compose up -d api db
 
 dev: ## Sobe o banco + API com hot reload
-	docker compose up api-dev db
+	docker compose up -d db
+	docker compose run --rm -it --service-ports api-dev
 
 down: ## Para e remove os containers
 	docker compose down
