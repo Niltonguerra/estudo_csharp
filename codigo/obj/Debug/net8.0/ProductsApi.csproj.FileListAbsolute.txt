@@ -96,7 +96,6 @@ C:/Users/nilto/OneDrive/Documentos/00-arquivos/repositorios/estudo_csharp/codigo
 /src/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /src/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.dll
 /src/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll
-/src/bin/Debug/net8.0/Microsoft.EntityFrameworkCore.InMemory.dll
 /src/bin/Debug/net8.0/Microsoft.IdentityModel.Abstractions.dll
 /src/bin/Debug/net8.0/Microsoft.IdentityModel.JsonWebTokens.dll
 /src/bin/Debug/net8.0/Microsoft.IdentityModel.Logging.dll
