@@ -6,7 +6,7 @@ CRUD de produtos com autenticação JWT.
 
 ```bash
 dotnet run
-# API sobe em http://localhost:5000
+# API sobe em http://localhost:8080
 ```
 
 ## Endpoints
