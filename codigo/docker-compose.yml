@@ -22,6 +22,7 @@ services:
     working_dir: /src
     volumes:
       - .:/src
+      - nuget-cache:/root/.nuget/packages
     ports:
       - "8080:8080"
     environment:

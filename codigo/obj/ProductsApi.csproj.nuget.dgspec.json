@@ -1,37 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\ProductsApi.csproj": {}
+    "/src/ProductsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\ProductsApi.csproj": {
+    "/src/ProductsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\ProductsApi.csproj",
+        "projectUniqueName": "/src/ProductsApi.csproj",
         "projectName": "ProductsApi",
-        "projectPath": "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\ProductsApi.csproj",
-        "packagesPath": "C:\\Users\\nilto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\obj\\",
+        "projectPath": "/src/ProductsApi.csproj",
+        "packagesPath": "/root/.nuget/packages/",
+        "outputPath": "/src/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\nilto\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/root/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
-            "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {}
           }
@@ -45,17 +37,23 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "10.0.400"
+        }
       },
       "frameworks": {
         "net8.0": {
-          "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
@@ -85,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.424/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
