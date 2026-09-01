@@ -1,7 +1,17 @@
-.PHONY: help up down build restart logs shell migrate
+.PHONY: help up down build restart logs logs-db shell migrate clean
 
 help: ## Lista os comandos disponíveis
-	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "  \033[36m%-15s\033[0m %s\n", $$1, $$2}'
+	@echo.
+	@echo   up             Sobe todos os containers
+	@echo   down           Para e remove os containers
+	@echo   build          Reconstrói a imagem da API
+	@echo   restart        Reinicia apenas a API
+	@echo   logs           Exibe os logs da API em tempo real
+	@echo   logs-db        Exibe os logs do banco em tempo real
+	@echo   shell          Abre um shell dentro do container da API
+	@echo   migrate        Aplica as migrations no banco
+	@echo   clean          Para containers e remove volumes
+	@echo.
 
 up: ## Sobe todos os containers
 	docker compose up -d
