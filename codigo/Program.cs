@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Banco de dados
 builder.Services.AddDbContext<AppDbContext>(opt =>
-    opt.UseInMemoryDatabase("ProductsDb"));
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("Default")));
 
 // JWT
 var jwtKey = builder.Configuration["Jwt:Key"]!;

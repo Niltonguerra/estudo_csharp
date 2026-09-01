@@ -38,6 +38,9 @@ services:
         condition: service_healthy
     networks:
       - products_net
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
 
   db:
     image: postgres:16-alpine
@@ -60,6 +63,7 @@ services:
 
 volumes:
   postgres_data:
+  nuget-cache:  
 
 networks:
   products_net:

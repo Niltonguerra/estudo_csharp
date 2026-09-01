@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ProductsApi.Modules.Products;
 
 [ApiController]
-[Route("api/products")]
+[Route("products")]
 public class ProductsController : ControllerBase
 {
     [HttpGet("health")]
