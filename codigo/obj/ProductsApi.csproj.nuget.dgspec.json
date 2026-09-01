@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nilto\\Downloads\\ProductsApi\\ProductsApi\\ProductsApi.csproj": {}
+    "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\ProductsApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nilto\\Downloads\\ProductsApi\\ProductsApi\\ProductsApi.csproj": {
+    "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\ProductsApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nilto\\Downloads\\ProductsApi\\ProductsApi\\ProductsApi.csproj",
+        "projectUniqueName": "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\ProductsApi.csproj",
         "projectName": "ProductsApi",
-        "projectPath": "C:\\Users\\nilto\\Downloads\\ProductsApi\\ProductsApi\\ProductsApi.csproj",
+        "projectPath": "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\ProductsApi.csproj",
         "packagesPath": "C:\\Users\\nilto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nilto\\Downloads\\ProductsApi\\ProductsApi\\obj\\",
+        "outputPath": "C:\\Users\\nilto\\OneDrive\\Documentos\\00-arquivos\\repositorios\\estudo_csharp\\codigo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

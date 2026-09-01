@@ -237,9 +237,19 @@
               "icon": "OZCAL_ICON",
               "title": "OZ Calendar"
             }
+          },
+          {
+            "id": "340e381a08f94d72",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "OZCAL_ICON",
+              "title": "OZ Calendar"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "04abb1bbfe368fd5",

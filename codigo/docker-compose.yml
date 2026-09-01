@@ -1,0 +1,43 @@
+services:
+  api:
+    build: .
+    container_name: products_api
+    ports:
+      - "8080:8080"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - Jwt__Key=${JWT_KEY}
+      - Jwt__Issuer=${JWT_ISSUER}
+      - Jwt__Audience=${JWT_AUDIENCE}
+      - ConnectionStrings__Default=Host=db;Port=5432;Database=products_db;Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - products_net
+
+  db:
+    image: postgres:16-alpine
+    container_name: products_db
+    environment:
+      - POSTGRES_DB=products_db
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d products_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - products_net
+
+volumes:
+  postgres_data:
+
+networks:
+  products_net:
+    driver: bridge
