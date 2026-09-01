@@ -1,8 +1,9 @@
-.PHONY: help up down build restart logs logs-db shell migrate clean
+.PHONY: help up down build restart logs logs-db shell migrate clean dev
 
 help: ## Lista os comandos disponíveis
 	@echo.
-	@echo   up             Sobe todos os containers
+	@echo   up             Sobe todos os containers (producao)
+	@echo   dev            Sobe o banco + API com hot reload
 	@echo   down           Para e remove os containers
 	@echo   build          Reconstrói a imagem da API
 	@echo   restart        Reinicia apenas a API
@@ -13,8 +14,11 @@ help: ## Lista os comandos disponíveis
 	@echo   clean          Para containers e remove volumes
 	@echo.
 
-up: ## Sobe todos os containers
-	docker compose up -d
+up: ## Sobe todos os containers (producao)
+	docker compose up -d api db
+
+dev: ## Sobe o banco + API com hot reload
+	docker compose up api-dev db
 
 down: ## Para e remove os containers
 	docker compose down

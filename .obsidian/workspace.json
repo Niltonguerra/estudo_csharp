@@ -294,8 +294,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "95d1c939de81c5c0",
+  "active": "2a94081eb84fb2b5",
   "lastOpenFiles": [
+    "codigo/p0skvwac.kgn~",
     "codigo/Novo Arquivo",
     "codigo/Welcome.md",
     "codigo/README.md",
@@ -308,7 +309,6 @@
     "codigo/obj/Debug/net8.0/ref/ProductsApi.dll",
     "codigo/obj/Release/net8.0/ProductsApi.GeneratedMSBuildEditorConfig.editorconfig",
     "codigo/obj/Release/net8.0/ProductsApi.GlobalUsings.g.cs",
-    "codigo/obj/Release/net8.0/ProductsApi.csproj.AssemblyReference.cache",
     "anotacoes/plano de estudos.md",
     "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
     "documentacao/1-API REST CRUD básica.md",
