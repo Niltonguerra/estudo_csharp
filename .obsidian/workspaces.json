@@ -1,0 +1,522 @@
+{
+  "workspaces": {
+    "metas": {
+      "main": {
+        "id": "e74a328f4ffe2909",
+        "type": "split",
+        "children": [
+          {
+            "id": "a7afab00d9a9a4e7",
+            "type": "split",
+            "children": [
+              {
+                "id": "357d3356fad9c1c1",
+                "type": "split",
+                "dimension": 47.30046948356807,
+                "children": [
+                  {
+                    "id": "f85de0f748bb9f7f",
+                    "type": "tabs",
+                    "dimension": 46.30314232902033,
+                    "children": [
+                      {
+                        "id": "a52b4609d131e102",
+                        "type": "leaf",
+                        "state": {
+                          "type": "markdown",
+                          "state": {
+                            "file": "notas permanentes/metas/metas mensais/janeiro 2025.md",
+                            "mode": "source",
+                            "backlinks": false,
+                            "source": false
+                          },
+                          "icon": "lucide-file",
+                          "title": "janeiro 2025"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "id": "c014dc40e1d7c8b5",
+                    "type": "tabs",
+                    "dimension": 53.69685767097967,
+                    "children": [
+                      {
+                        "id": "2186659be3391ab5",
+                        "type": "leaf",
+                        "state": {
+                          "type": "markdown",
+                          "state": {
+                            "file": "notas permanentes/metas/metas trimestrais/01-01-25 até 28-03-25.md",
+                            "mode": "source",
+                            "backlinks": false,
+                            "source": false
+                          },
+                          "icon": "lucide-file",
+                          "title": "01-01-25 até 28-03-25"
+                        }
+                      }
+                    ]
+                  }
+                ],
+                "direction": "vertical"
+              },
+              {
+                "id": "537823b679c1dc1e",
+                "type": "tabs",
+                "dimension": 52.69953051643193,
+                "children": [
+                  {
+                    "id": "2bbbc7455ba9768f",
+                    "type": "leaf",
+                    "state": {
+                      "type": "markdown",
+                      "state": {
+                        "file": "notas permanentes/metas/metas semanais/29-12-24 até 04-01-25.md",
+                        "mode": "source",
+                        "backlinks": false,
+                        "source": false
+                      },
+                      "icon": "lucide-file",
+                      "title": "29-12-24 até 04-01-25"
+                    }
+                  }
+                ]
+              }
+            ],
+            "direction": "horizontal"
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "e86a6c7af9a6792f",
+        "type": "split",
+        "children": [
+          {
+            "id": "d00054995068941d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2a94081eb84fb2b5",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "3d14eef97b09bca3",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Marcadores"
+                }
+              },
+              {
+                "id": "ae385e8e5901ef46",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "2d0b097190e6f398",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {},
+                  "icon": "calendar-with-checkmark",
+                  "title": "Calendar"
+                }
+              },
+              {
+                "id": "ece6c7186dfa5043",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {},
+                  "icon": "lucide-list",
+                  "title": "Outline"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 313.5
+      },
+      "right": {
+        "id": "6d280047996c7655",
+        "type": "split",
+        "children": [
+          {
+            "id": "040c3fbe8594b1ec",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "4dc1e53f5f99e023",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "inovação.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Links inversos para inovação"
+                }
+              },
+              {
+                "id": "738b789336f7b652",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links"
+                }
+              },
+              {
+                "id": "dd6350e009073dfd",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "72546342dc2e9163",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "1be2b055b1e94437",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {},
+                  "icon": "spreadsheet",
+                  "title": "Advanced Tables"
+                }
+              },
+              {
+                "id": "257eab3f44a270c6",
+                "type": "leaf",
+                "state": {
+                  "type": "file-properties",
+                  "state": {},
+                  "icon": "lucide-info",
+                  "title": "File properties"
+                }
+              },
+              {
+                "id": "95d1c939de81c5c0",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "markdown-importer:Open format converter": false,
+          "random-note:Open random note": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "obsidian-kanban:Create new board": false,
+          "templater-obsidian:Templater": false,
+          "obsidian-git:Open Git source control": false,
+          "obsidian-excalidraw-plugin:Create new drawing": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false
+        }
+      },
+      "active": "2186659be3391ab5",
+      "mtime": "2025-01-01T23:09:21-03:00"
+    },
+    "teste": {
+      "main": {
+        "id": "e74a328f4ffe2909",
+        "type": "split",
+        "children": [
+          {
+            "id": "bc0870bd435c51e0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "de44ad75ecb48fbe",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "notas bibliograficas/💼 carreira/cursos_curtos/aspire/lessons/week 2-how to create an organization/lesson 2.4.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "lesson 2.4"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "e86a6c7af9a6792f",
+        "type": "split",
+        "children": [
+          {
+            "id": "d00054995068941d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "2a94081eb84fb2b5",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": false
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "442575ccc9585d0a",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "ae385e8e5901ef46",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "tag:tecnologia",
+                    "matchingCase": false,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 444.5
+      },
+      "right": {
+        "id": "6d280047996c7655",
+        "type": "split",
+        "children": [
+          {
+            "id": "040c3fbe8594b1ec",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "26307c6c7fd01ec0",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {},
+                  "icon": "git-pull-request",
+                  "title": "Source Control"
+                }
+              },
+              {
+                "id": "dd6350e009073dfd",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "72546342dc2e9163",
+                "type": "leaf",
+                "state": {
+                  "type": "all-properties",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-archive",
+                  "title": "All properties"
+                }
+              },
+              {
+                "id": "6e9d4bd29557ce75",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "notas bibliograficas/💼 carreira/cursos_curtos/alura/formacao Engenharia de software/design de código/introdução ao design de código.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for introdução ao design de código"
+                }
+              },
+              {
+                "id": "d6f040d8f7209184",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "🎯metas/1-metas_semanais/🎯5-01-24 até 11-01-25.md"
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of 🎯5-01-24 até 11-01-25"
+                }
+              },
+              {
+                "id": "db92df186ef2767c",
+                "type": "leaf",
+                "state": {
+                  "type": "oz-calendar",
+                  "state": {},
+                  "icon": "OZCAL_ICON",
+                  "title": "OZ Calendar"
+                }
+              },
+              {
+                "id": "472fbe59cb0c0d10",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "notas bibliograficas/💼 carreira/cursos_curtos/alura/formacao Engenharia de software/design de código/introdução ao design de código.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from introdução ao design de código"
+                }
+              },
+              {
+                "id": "e0a5bfef7fd066c4",
+                "type": "leaf",
+                "state": {
+                  "type": "oz-calendar",
+                  "state": {},
+                  "icon": "OZCAL_ICON",
+                  "title": "OZ Calendar"
+                }
+              }
+            ],
+            "currentTab": 5
+          }
+        ],
+        "direction": "horizontal",
+        "width": 309.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "switcher:Open quick switcher": false,
+          "graph:Open graph view": false,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": false,
+          "command-palette:Open command palette": false,
+          "markdown-importer:Open format converter": false,
+          "random-note:Open random note": false,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "templater-obsidian:Templater": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": false,
+          "excel:Create Excel File": false,
+          "pdf-plus:PDF++: Toggle auto-copy": false,
+          "pdf-plus:PDF++: Toggle auto-focus": false,
+          "pdf-plus:PDF++: Toggle auto-paste": false,
+          "obsidian-git:Open Git source control": false,
+          "obsidian-excalidraw-plugin:New drawing": false
+        }
+      },
+      "active": "de44ad75ecb48fbe",
+      "mtime": "2025-05-26T12:09:42-03:00"
+    }
+  },
+  "active": "metas"
+}

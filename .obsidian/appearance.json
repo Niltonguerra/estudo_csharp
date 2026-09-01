@@ -1,0 +1,10 @@
+{
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "sem-recuo"
+  ],
+  "accentColor": "#bf92f9",
+  "nativeMenus": false,
+  "baseFontSize": 18
+}

@@ -1,0 +1,13 @@
+/* remove limitação de largura */
+.view-content .markdown-preview-sizer,
+.view-content .cm-sizer {
+    max-width: 100% !important;
+    margin: 0 !important;
+}
+
+/* remove padding lateral */
+.view-content .markdown-preview-view,
+.view-content .cm-content {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}

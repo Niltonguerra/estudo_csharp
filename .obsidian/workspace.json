@@ -1,0 +1,413 @@
+{
+  "main": {
+    "id": "e74a328f4ffe2909",
+    "type": "split",
+    "children": [
+      {
+        "id": "ccd65127264a04e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11f31ad92abe1459",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documentacao/3-segurança na api.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "3-segurança na api"
+            }
+          },
+          {
+            "id": "208c6cd915aaefd2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "01d246aa139e9226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "documentacao/0-plano de estudos.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "0-plano de estudos"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e86a6c7af9a6792f",
+    "type": "split",
+    "children": [
+      {
+        "id": "d00054995068941d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd6350e009073dfd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "3d14eef97b09bca3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "848219bccc883feb",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "notas_bibliograficas/carreira/biblioteca/CleanCode/book/Codigo Limpo - Completo PT.pdf",
+                "page": 51,
+                "left": -46,
+                "top": 952,
+                "zoom": 0.3250034536161179
+              },
+              "icon": "lucide-file-text",
+              "title": "Codigo Limpo - Completo PT"
+            }
+          },
+          {
+            "id": "2a94081eb84fb2b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ae385e8e5901ef46",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:tecnologia/autodidata",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "8690b15f251985d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95d1c939de81c5c0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 268.5
+  },
+  "right": {
+    "id": "6d280047996c7655",
+    "type": "split",
+    "children": [
+      {
+        "id": "040c3fbe8594b1ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "076095e195ae4a82",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "oz-calendar"
+            }
+          },
+          {
+            "id": "1be2b055b1e94437",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
+            }
+          },
+          {
+            "id": "72546342dc2e9163",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "257eab3f44a270c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "notas_bibliograficas/💼 carreira/cursos_longos/FIAP/modulo2/banco de dados/banco_de_dados_relacionais/aula 2 - SGBD relacional.md"
+              },
+              "icon": "lucide-info",
+              "title": "File properties for aula 2 - SGBD relacional"
+            }
+          },
+          {
+            "id": "4dc1e53f5f99e023",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "notas_bibliograficas/💼 carreira/cursos_longos/FIAP/modulo2/qualidade_de_software/01-Qualidade-de-software.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para 01-Qualidade-de-software"
+            }
+          },
+          {
+            "id": "738b789336f7b652",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "notas_bibliograficas/💼 carreira/cursos_longos/FIAP/modulo2/img/Pasted image 20250616162303.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pasted image 20250616162303"
+            }
+          },
+          {
+            "id": "b80102a549b764bb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "notas_bibliograficas/💼 carreira/cursos_longos/FIAP/modulo2/banco de dados/banco_de_dados_relacionais/aula 2 - SGBD relacional.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of aula 2 - SGBD relacional"
+            }
+          },
+          {
+            "id": "0ba9d5dfb8dd8fb4",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "oz-calendar"
+            }
+          },
+          {
+            "id": "375087e779dcd9f8",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "oz-calendar"
+            }
+          },
+          {
+            "id": "af54788bc84e08d7",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "oz-calendar"
+            }
+          },
+          {
+            "id": "7030f5a28380b68a",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "oz-calendar"
+            }
+          },
+          {
+            "id": "970fe7c7558c62cd",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "oz-calendar"
+            }
+          },
+          {
+            "id": "64b915d2dc3632ab",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "OZCAL_ICON",
+              "title": "OZ Calendar"
+            }
+          },
+          {
+            "id": "c52821e6ed896d58",
+            "type": "leaf",
+            "state": {
+              "type": "oz-calendar",
+              "state": {},
+              "icon": "OZCAL_ICON",
+              "title": "OZ Calendar"
+            }
+          }
+        ],
+        "currentTab": 13
+      }
+    ],
+    "direction": "horizontal",
+    "width": 361.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false,
+      "audio-recorder:Start/stop recording": false,
+      "workspaces:Manage workspace layouts": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "excel:Create Excel File": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "208c6cd915aaefd2",
+  "lastOpenFiles": [
+    "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
+    "documentacao/1-API REST CRUD básica.md",
+    "documentacao/0-plano de estudos.md",
+    "documentacao/3-segurança na api.md",
+    "README.md",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/service/bookService.java",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/repository/BookRepository.java",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/entity/Book.java",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/controller/bookController.java",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/service",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/repository",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/entity",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book/controller",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/book",
+    "estudos-spring-boot/src/main/java/com/example/estudos_spring_boot/estudo1/validation/SkuFormatValidator.java",
+    "notas_bibliograficas/cursos_curtos/autodidata/autodidata.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/Core Web Vitals/part_1_levantamento_de_informacoes.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/desing/Design atômico.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/kubernetes/part_1_levantamento_de_informacoes.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/resumo de videos/hábitos atômicos.md",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo5/redes/aula2-Aplicacao-HTTPS e HTTP.md",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo5/redes/aula3-SSH-FTP.md",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo5/arquitetura cloud/aula5-levantamento de requisitos-CDN-Load balance.md",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo1/DDD/aula05/como fazer e executar o DDD.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/captura de dados da bolsa de valores/Drawing 2026-07-04 12.26.59.excalidraw.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/captura de dados da bolsa de valores/captura-dados-bolsa-de-valores.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/captura de noticias/captura de noticias.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/concessao de credito/concessao de credito.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/contas e transacoes/tranferencia de dinheiro.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/bounded context/gestão de preferencias do usuario/captura de preferencias do usuário.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/Process Modeling/Identidade e Acesso.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/Process Modeling/personalização de noticias.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/Process Modeling/personalizacao de sugestoes de investimento para o usuário.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/1-Definição de Domínio do Projeto.md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/2-contextos delimitados(bounded context).md",
+    "notas_bibliograficas/cursos_curtos/autodidata/projeto1-mostrar o que sei/DDD/v1/big picture.md",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210721.png",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210654.png",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210442.png",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260629210429.png",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260628163645.png",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260625095444.png",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo2/img/Pasted image 20260625094500.png",
+    "notas_bibliograficas/saude/treinos/academia/Captura de tela de 2026-01-14 13-51-51.png",
+    "notas_bibliograficas/saude/treinos/academia/Captura de tela de 2026-01-14 13-51-23.png",
+    "notas_bibliograficas/cursos_longos/FIAP/modulo5/img/Pasted image 20260621145637.png",
+    "Sem título.canvas",
+    "Untitled.canvas",
+    "Untitled 1.canvas"
+  ]
+}
