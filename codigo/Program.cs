@@ -2,12 +2,12 @@ using System.Text;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
-using ProductsApi.Data;
-using ProductsApi.Services;
+using ProductsApi.Infrastructure.Persistence;
+using ProductsApi.Modules.Products;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Banco de dados em memória (para substituir por SQL Server/PostgreSQL, trocar InMemory por UseSqlServer/UseNpgsql)
+// Banco de dados
 builder.Services.AddDbContext<AppDbContext>(opt =>
     opt.UseInMemoryDatabase("ProductsDb"));
 
@@ -30,8 +30,10 @@ builder.Services
     });
 
 builder.Services.AddAuthorization();
-builder.Services.AddScoped<TokenService>();
 builder.Services.AddControllers();
+
+// Módulos
+builder.Services.AddProductsModule();
 
 var app = builder.Build();
 
