@@ -9,8 +9,11 @@ API com ASP.NET Core com endpoints completos. Sem banco ainda, dados em memória
 **Objetivo 2.5 — Refatorar para Clean Architecture**  ✔️
 Reorganizar em camadas — Domain, Application, Infrastructure, Presentation. Aplicar SOLID na prática.
 
-**Objetivo 3 — Persistência com Entity Framework Core**  
-Conectar a API a PostgreSQL, usar migrations, repositórios e relacionamentos básicos.
+**Objetivo 3 — Persistência com Entity Framework Core**  e outros detalhes
+- Conectar a API a PostgreSQL, usar migrations, repositórios e relacionamentos básicos.✔️
+- **Validação dos DTOs** — hoje você consegue criar um produto com nome vazio, preço negativo, etc. O FluentValidation que está no `.csproj` resolve isso
+- **Tratamento global de erros** — se der uma exceção não tratada, a API retorna 500 sem contexto nenhum
+- **Logs** — sem logging estruturado
 
 **Objetivo 4 — Segurança com JWT**  
 Autenticação e autorização com JWT, roles e middleware de segurança.
