@@ -308,3 +308,12 @@ C:/Users/nilto/OneDrive/Documentos/00-arquivos/repositorios/estudo_csharp/codigo
 /src/bin/Debug/net8.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /src/bin/Debug/net8.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll
 /src/bin/Debug/net8.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll
+/src/bin/Debug/net8.0/Serilog.dll
+/src/bin/Debug/net8.0/Serilog.AspNetCore.dll
+/src/bin/Debug/net8.0/Serilog.Extensions.Hosting.dll
+/src/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/src/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/src/bin/Debug/net8.0/Serilog.Settings.Configuration.dll
+/src/bin/Debug/net8.0/Serilog.Sinks.Console.dll
+/src/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
+/src/bin/Debug/net8.0/Serilog.Sinks.File.dll

@@ -1,0 +1,46 @@
+2026-09-03 00:43:28.505 +00:00 [WRN] Storing keys in a directory '/root/.aspnet/DataProtection-Keys' that may not be persisted outside of the container. Protected data will be unavailable when container is destroyed. For more information go to https://aka.ms/aspnet/dataprotectionwarning
+2026-09-03 00:43:28.535 +00:00 [INF] User profile is available. Using '/root/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2026-09-03 00:43:28.545 +00:00 [INF] Creating key {7b7c58eb-0d04-48af-ba90-6abd68a68e37} with creation date 2026-09-03 00:43:28Z, activation date 2026-09-03 00:43:28Z, and expiration date 2026-12-02 00:43:28Z.
+2026-09-03 00:43:28.554 +00:00 [WRN] No XML encryptor configured. Key {7b7c58eb-0d04-48af-ba90-6abd68a68e37} may be persisted to storage in unencrypted form.
+2026-09-03 00:43:28.557 +00:00 [INF] Writing data to file '/root/.aspnet/DataProtection-Keys/key-7b7c58eb-0d04-48af-ba90-6abd68a68e37.xml'.
+2026-09-03 00:43:28.566 +00:00 [WRN] Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://+:8080'.
+2026-09-03 00:43:28.590 +00:00 [INF] Now listening on: http://[::]:8080
+2026-09-03 00:43:28.591 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-03 00:43:28.591 +00:00 [INF] Hosting environment: Development
+2026-09-03 00:43:28.591 +00:00 [INF] Content root path: /src
+2026-09-03 00:43:38.959 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/products - application/json 99
+2026-09-03 00:43:38.997 +00:00 [INF] Executing endpoint 'ProductsApi.Modules.Products.ProductsController.Create (ProductsApi)'
+2026-09-03 00:43:39.011 +00:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ProductsApi.Modules.Products.Application.DTOs.CreateProductDto) on controller ProductsApi.Modules.Products.ProductsController (ProductsApi).
+2026-09-03 00:43:39.585 +00:00 [INF] Executed DbCommand (36ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = Decimal), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("CreatedAt", "Description", "Name", "Price", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2026-09-03 00:43:39.615 +00:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductsApi.Modules.Products.Application.DTOs.ProductResponse'.
+2026-09-03 00:43:39.636 +00:00 [INF] Executed action ProductsApi.Modules.Products.ProductsController.Create (ProductsApi) in 623.116ms
+2026-09-03 00:43:39.637 +00:00 [INF] Executed endpoint 'ProductsApi.Modules.Products.ProductsController.Create (ProductsApi)'
+2026-09-03 00:43:39.639 +00:00 [INF] HTTP POST /products responded 201 in 660.4251 ms
+2026-09-03 00:43:39.646 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/products - 201 null application/json; charset=utf-8 687.3062ms
+2026-09-03 00:44:23.711 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/products - application/json 99
+2026-09-03 00:44:23.713 +00:00 [INF] Executing endpoint 'ProductsApi.Modules.Products.ProductsController.Create (ProductsApi)'
+2026-09-03 00:44:23.713 +00:00 [INF] Route matched with {action = "Create", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ProductsApi.Modules.Products.Application.DTOs.CreateProductDto) on controller ProductsApi.Modules.Products.ProductsController (ProductsApi).
+2026-09-03 00:44:23.752 +00:00 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?' (DbType = Decimal), @p4='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("CreatedAt", "Description", "Name", "Price", "Stock")
+VALUES (@p0, @p1, @p2, @p3, @p4)
+RETURNING "Id";
+2026-09-03 00:44:23.754 +00:00 [INF] Executing CreatedAtActionResult, writing value of type 'ProductsApi.Modules.Products.Application.DTOs.ProductResponse'.
+2026-09-03 00:44:23.756 +00:00 [INF] Executed action ProductsApi.Modules.Products.ProductsController.Create (ProductsApi) in 41.7348ms
+2026-09-03 00:44:23.756 +00:00 [INF] Executed endpoint 'ProductsApi.Modules.Products.ProductsController.Create (ProductsApi)'
+2026-09-03 00:44:23.757 +00:00 [INF] HTTP POST /products responded 201 in 44.8793 ms
+2026-09-03 00:44:23.758 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/products - 201 null application/json; charset=utf-8 47.341ms
+2026-09-03 00:46:33.854 +00:00 [INF] Request starting HTTP/1.1 GET http://localhost:8080/products - null null
+2026-09-03 00:46:33.856 +00:00 [INF] Executing endpoint 'ProductsApi.Modules.Products.ProductsController.GetAll (ProductsApi)'
+2026-09-03 00:46:33.860 +00:00 [INF] Route matched with {action = "GetAll", controller = "Products"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller ProductsApi.Modules.Products.ProductsController (ProductsApi).
+2026-09-03 00:46:33.973 +00:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."CreatedAt", p."Description", p."Name", p."Price", p."Stock"
+FROM "Products" AS p
+2026-09-03 00:46:33.983 +00:00 [INF] Executing OkObjectResult, writing value of type 'System.Linq.Enumerable+SelectListIterator`2[[ProductsApi.Modules.Products.Domain.Entities.Product, ProductsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[ProductsApi.Modules.Products.Application.DTOs.ProductResponse, ProductsApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-03 00:46:33.988 +00:00 [INF] Executed action ProductsApi.Modules.Products.ProductsController.GetAll (ProductsApi) in 126.738ms
+2026-09-03 00:46:33.988 +00:00 [INF] Executed endpoint 'ProductsApi.Modules.Products.ProductsController.GetAll (ProductsApi)'
+2026-09-03 00:46:33.988 +00:00 [INF] HTTP GET /products responded 200 in 133.5618 ms
+2026-09-03 00:46:33.988 +00:00 [INF] Request finished HTTP/1.1 GET http://localhost:8080/products - 200 null application/json; charset=utf-8 134.8124ms
+2026-09-03 00:49:08.359 +00:00 [INF] Application is shutting down...
