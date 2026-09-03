@@ -40,7 +40,8 @@ shell: ## Abre um shell dentro do container da API
 	docker compose exec api sh
 
 migrate: ## Aplica as migrations no banco
-	docker compose exec api dotnet ef database update
+	docker compose build migrator
+	docker compose run --rm migrator
 
 clean: ## Para containers e remove volumes (apaga dados do banco)
 	docker compose down -v
