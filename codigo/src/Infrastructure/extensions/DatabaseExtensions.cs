@@ -1,4 +1,7 @@
 // DatabaseExtensions.cs
+using Microsoft.EntityFrameworkCore;
+using ProductsApi.Infrastructure.Persistence;
+
 public static class DatabaseExtensions
 {
     public static IServiceCollection AddDatabase(this IServiceCollection services, IConfiguration config)
