@@ -52,7 +52,7 @@ services:
       - nuget-cache:/root/.nuget/packages
     environment:
       - ConnectionStrings__Default=Host=db;Port=5432;Database=products_db;Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
-    command: dotnet ef database update
+    command: sh -c "dotnet restore && dotnet ef database update"
     depends_on:
       db:
         condition: service_healthy

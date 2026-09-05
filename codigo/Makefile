@@ -45,3 +45,12 @@ migrate: ## Aplica as migrations no banco
 
 clean: ## Para containers e remove volumes (apaga dados do banco)
 	docker compose down -v
+
+test: ## Roda todos os testes
+	dotnet test
+
+test-unit: ## Roda apenas os testes unitários
+	dotnet test tests/UnitTests
+
+test-integration: ## Roda apenas os testes de integração
+	dotnet test tests/IntegrationTests

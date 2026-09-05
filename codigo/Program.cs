@@ -1,32 +1,27 @@
-using System.Text;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using ProductsApi.Infrastructure.Persistence;
+using Serilog;
+using Serilog.AspNetCore;
+using ProductsApi.Infrastructure.Extensions;
 using ProductsApi.Infrastructure.Middleware;
 using ProductsApi.Modules.Products;
-using Serilog;
+using ProductsApi.Modules.Users;
 
+LoggingExtensions.AddLogging();
 
-
-Log.Logger = new LoggerConfiguration()
-    .WriteTo.Console()
-    .WriteTo.File("logs/app.log", rollingInterval: RollingInterval.Day)
-    .CreateLogger();
-
-// Program.cs limpo
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Host.UseSerilog();
 builder.Services.AddDatabase(builder.Configuration);
 builder.Services.AddJwtAuthentication(builder.Configuration);
+builder.Services.AddRateLimiting();
 builder.Services.AddAuthorization();
 builder.Services.AddControllers();
 builder.Services.AddProductsModule();
+builder.Services.AddUsersModule();
 
 var app = builder.Build();
 
 app.UseSerilogRequestLogging();
+app.UseRateLimiter();
 app.UseMiddleware<GlobalExceptionMiddleware>();
 app.UseAuthentication();
 app.UseAuthorization();

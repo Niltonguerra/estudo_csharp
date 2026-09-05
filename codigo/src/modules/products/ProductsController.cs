@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using ProductsApi.Modules.Products.Application.DTOs;
 using ProductsApi.Modules.Products.Application.Services;
@@ -22,6 +23,7 @@ public class ProductsController(IProductService service) : ControllerBase
         return Ok(product);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPost]
     public async Task<IActionResult> Create(CreateProductDto dto)
     {
@@ -29,6 +31,7 @@ public class ProductsController(IProductService service) : ControllerBase
         return CreatedAtAction(nameof(GetById), new { id = product.Id }, product);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpPut("{id}")]
     public async Task<IActionResult> Update(int id, UpdateProductDto dto)
     {
@@ -39,6 +42,7 @@ public class ProductsController(IProductService service) : ControllerBase
         return Ok(product);
     }
 
+    [Authorize(Roles = "Admin")]
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
@@ -48,7 +52,6 @@ public class ProductsController(IProductService service) : ControllerBase
 
         return NoContent();
     }
-
 
     [HttpGet("health")]
     public IActionResult Health() => Ok(new { status = "Products module is running" });
