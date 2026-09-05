@@ -11,9 +11,9 @@ Reorganizar em camadas — Domain, Application, Infrastructure, Presentation. Ap
 
 **Objetivo 3 — Persistência com Entity Framework Core**  e outros detalhes
 - Conectar a API a PostgreSQL, usar migrations, repositórios e relacionamentos básicos.✔️
-- **Validação dos DTOs** — hoje você consegue criar um produto com nome vazio, preço negativo, etc. O FluentValidation que está no `.csproj` resolve isso
-- **Tratamento global de erros** — se der uma exceção não tratada, a API retorna 500 sem contexto nenhum
-- **Logs** — sem logging estruturado
+- **Validação dos DTOs** — hoje você consegue criar um produto com nome vazio, preço negativo, etc. O FluentValidation que está no `.csproj` resolve isso✔️
+- **Tratamento global de erros** — se der uma exceção não tratada, a API retorna 500 sem contexto nenhum✔️
+- **Logs** — sem logging estruturado✔️
 
 **Objetivo 4 — Segurança com JWT**  
 Autenticação e autorização com JWT, roles e middleware de segurança.

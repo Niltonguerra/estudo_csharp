@@ -11,19 +11,29 @@
             "id": "11f31ad92abe1459",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          },
+          {
+            "id": "208c6cd915aaefd2",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "documentacao/3-segurança na api.md",
+                "file": "anotacoes/nota1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3-segurança na api"
+              "title": "nota1"
             }
           },
           {
-            "id": "208c6cd915aaefd2",
+            "id": "01d246aa139e9226",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,24 +46,9 @@
               "icon": "lucide-file",
               "title": "plano de estudos"
             }
-          },
-          {
-            "id": "01d246aa139e9226",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "documentacao/0-plano de estudos.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "0-plano de estudos"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -294,8 +289,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "95d1c939de81c5c0",
+  "active": "01d246aa139e9226",
   "lastOpenFiles": [
+    "anotacoes/nota1.md",
+    "anotacoes/plano de estudos.md",
     "codigo/src/Modules/Products/Application/Validators/UpdateProductDtoValidator.cs",
     "codigo/src/Modules/Products/Application/Validators/CreateProductDtoValidator.cs",
     "codigo/src/Modules/Products/Application/Validators",
@@ -306,10 +303,8 @@
     "codigo/Migrations/20260902230757_InitialCreate.Designer.cs",
     "codigo/Migrations/20260902230757_InitialCreate.cs",
     "codigo/Migrations",
-    "codigo/Dockerfile.migrator",
     "codigo/Welcome.md",
     "codigo/README.md",
-    "anotacoes/plano de estudos.md",
     "documentacao/2-API com integração ao sgbd mediante ao JPQL.md",
     "documentacao/1-API REST CRUD básica.md",
     "documentacao/0-plano de estudos.md",
