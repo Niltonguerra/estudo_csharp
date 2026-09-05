@@ -86,10 +86,10 @@ valida o papel:
 
 
 ## rate limiting:
-#configurações:
+### configurações:
 - **`o.QueueProcessingOrder = QueueProcessingOrder.OldestFirst`** — se houver fila, processa as requisições mais antigas primeiro.
-
 - **`o.QueueLimit = 0`** — não enfileira nada. Requisição além do limite é rejeitada imediatamente, sem esperar.
+
 
 
 

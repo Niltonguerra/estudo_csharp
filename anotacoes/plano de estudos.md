@@ -25,4 +25,4 @@ Testes unitários com xUnit, mocks com Moq e testes de integração com WebAppli
 Dois serviços se comunicando via RabbitMQ ou Kafka. Aplicar padrão Saga e resiliência com Polly (equivalente ao Resilience4j do Java).
 
 **Objetivo 8 — Performance e boas práticas avançadas**  
-Cache com Redis, paginação eficiente, queries otimizadas, logging estruturado com Serilog.
+Cache com Redis, paginação eficiente, queries otimizadas
