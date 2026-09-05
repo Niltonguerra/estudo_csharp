@@ -317,3 +317,12 @@ C:/Users/nilto/OneDrive/Documentos/00-arquivos/repositorios/estudo_csharp/codigo
 /src/bin/Debug/net8.0/Serilog.Sinks.Console.dll
 /src/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
 /src/bin/Debug/net8.0/Serilog.Sinks.File.dll
+/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.dll
+/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.AspNetCore.dll
+/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Extensions.Hosting.dll
+/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Extensions.Logging.dll
+/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Formatting.Compact.dll
+/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Settings.Configuration.dll
+/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Sinks.Console.dll
+/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
+/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Sinks.File.dll

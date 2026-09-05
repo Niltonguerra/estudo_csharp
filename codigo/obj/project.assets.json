@@ -3188,19 +3188,19 @@
     ]
   },
   "packageFolders": {
-    "/root/.nuget/packages/": {}
+    "/home/nilton/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/src/ProductsApi.csproj",
+      "projectUniqueName": "/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/ProductsApi.csproj",
       "projectName": "ProductsApi",
-      "projectPath": "/src/ProductsApi.csproj",
-      "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/src/obj/",
+      "projectPath": "/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/ProductsApi.csproj",
+      "packagesPath": "/home/nilton/.nuget/packages/",
+      "outputPath": "/home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/root/.nuget/NuGet/NuGet.Config"
+        "/home/nilton/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -3287,7 +3287,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.424/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/home/nilton/.dotnet/sdk/8.0.424/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
