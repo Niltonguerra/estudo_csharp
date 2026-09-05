@@ -15,7 +15,7 @@ Reorganizar em camadas — Domain, Application, Infrastructure, Presentation. Ap
 - **Tratamento global de erros** — se der uma exceção não tratada, a API retorna 500 sem contexto nenhum✔️
 - **Logs** — sem logging estruturado✔️
 
-**Objetivo 4 — Segurança com JWT**  
+**Objetivo 4 — Segurança com JWT**  ✔️
 Autenticação e autorização com JWT, roles e middleware de segurança.
 
 **Objetivo 5 — Testes**  

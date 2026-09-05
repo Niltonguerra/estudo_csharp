@@ -38,7 +38,50 @@ make migrate
 ```
 
 
+## autenticação
+valida apenas se o token é valido:
+```c#
+    [Authorize]
 
+    [HttpGet("me")]
+
+    public async Task<IActionResult> GetMe()
+
+    {
+
+        var userId = int.Parse(User.FindFirstValue(ClaimTypes.NameIdentifier)!);
+
+        var user = await authService.GetByIdAsync(userId);
+
+        if (user is null)
+
+            return NotFound();
+
+  
+
+        return Ok(user);
+
+    }
+```
+
+
+valida o papel:
+```c#
+
+    [Authorize(Roles = "Admin")]
+
+    [HttpPost]
+
+    public async Task<IActionResult> Create(CreateProductDto dto)
+
+    {
+
+        var product = await service.CreateAsync(dto);
+
+        return CreatedAtAction(nameof(GetById), new { id = product.Id }, product);
+
+    }
+```
 ## dúvidas que tive ao desenvover o projeto:
 ### por que fica em dominio os contratos de interface de entidade(a mais simplificada e a do repository), mas não a do service? sendo que a do service fica no dto? é porque é uma camada interna do servidor?
 - resposta custa: sim, fica em domínio as interfaces que conversar com recursos externos ao servidor e fica em application interfaces que conversam internamente com o servidor.
