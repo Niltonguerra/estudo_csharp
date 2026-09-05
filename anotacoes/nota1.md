@@ -91,8 +91,18 @@ valida o papel:
 - **`o.QueueLimit = 0`** — não enfileira nada. Requisição além do limite é rejeitada imediatamente, sem esperar.
 
 
+## testes:
+cria projetos de teste:
+```
+ dotnet new xunit -o tests/UnitTests
+dotnet new xunit -o tests/IntegrationTests
+```
 
-
+faz referencia ao projeto principal:
+```
+dotnet add tests/UnitTests/UnitTests.csproj reference ProductsApi.csproj
+dotnet add tests/IntegrationTests/IntegrationTests.csproj reference ProductsApi.csproj
+```
 
 
 
