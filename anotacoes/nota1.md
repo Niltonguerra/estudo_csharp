@@ -82,6 +82,20 @@ valida o papel:
 
     }
 ```
+
+
+
+## rate limiting:
+#configurações:
+- **`o.QueueProcessingOrder = QueueProcessingOrder.OldestFirst`** — se houver fila, processa as requisições mais antigas primeiro.
+
+- **`o.QueueLimit = 0`** — não enfileira nada. Requisição além do limite é rejeitada imediatamente, sem esperar.
+
+
+
+
+
+
 ## dúvidas que tive ao desenvover o projeto:
 ### por que fica em dominio os contratos de interface de entidade(a mais simplificada e a do repository), mas não a do service? sendo que a do service fica no dto? é porque é uma camada interna do servidor?
 - resposta custa: sim, fica em domínio as interfaces que conversar com recursos externos ao servidor e fica em application interfaces que conversam internamente com o servidor.
