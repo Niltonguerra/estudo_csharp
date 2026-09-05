@@ -26,6 +26,18 @@ PostgreSQL                       ← banco de verdade
 ```
 
 
+## migration:
+- para criar uma nova migration (local):
+```bash
+dotnet ef migrations add <nome da migration>
+```
+
+- para aplicar as migrations pendentes no banco:
+```bash
+make migrate
+```
+
+
 
 ## dúvidas que tive ao desenvover o projeto:
 ### por que fica em dominio os contratos de interface de entidade(a mais simplificada e a do repository), mas não a do service? sendo que a do service fica no dto? é porque é uma camada interna do servidor?
