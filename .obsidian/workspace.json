@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "anotacoes/plano de estudos.md",
+                "file": "anotacoes/nota1.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "plano de estudos"
+              "title": "nota1"
             }
           }
         ]
@@ -265,8 +265,8 @@
   },
   "active": "01d246aa139e9226",
   "lastOpenFiles": [
-    "anotacoes/nota1.md",
     "anotacoes/plano de estudos.md",
+    "anotacoes/nota1.md",
     "codigo/src/Infrastructure/Middleware/GlobalExceptionMiddleware.cs",
     "codigo/src/Infrastructure/Middleware",
     "codigo/logs/app20260903.log",
