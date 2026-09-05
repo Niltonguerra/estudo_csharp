@@ -326,3 +326,4 @@ C:/Users/nilto/OneDrive/Documentos/00-arquivos/repositorios/estudo_csharp/codigo
 /home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Sinks.Console.dll
 /home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Sinks.Debug.dll
 /home/nilton/codigos/estudosAutodidata/estudo_csharp/codigo/bin/Debug/net8.0/Serilog.Sinks.File.dll
+/src/bin/Debug/net8.0/RabbitMQ.Client.dll

@@ -1782,3 +1782,4 @@ LIMIT 1
 2026-09-05 14:45:58.586 +00:00 [INF] Request starting HTTP/1.1 POST http://localhost:8080/users/login - application/json 55
 2026-09-05 14:45:58.587 +00:00 [INF] HTTP POST /users/login responded 429 in 0.2018 ms
 2026-09-05 14:45:58.587 +00:00 [INF] Request finished HTTP/1.1 POST http://localhost:8080/users/login - 429 null null 1.2286ms
+2026-09-05 16:44:01.492 +00:00 [INF] Application is shutting down...

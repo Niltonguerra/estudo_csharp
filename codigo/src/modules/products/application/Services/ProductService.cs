@@ -1,10 +1,14 @@
 using ProductsApi.Modules.Products.Application.DTOs;
 using ProductsApi.Modules.Products.Domain.Entities;
+using ProductsApi.Modules.Products.Domain.Events;
 using ProductsApi.Modules.Products.Domain.Interfaces;
+using ProductsApi.Modules.Products.Infrastructure.Messaging;
 
 namespace ProductsApi.Modules.Products.Application.Services;
 
-public class ProductService(IProductRepository repository) : IProductService
+public class ProductService(
+    IProductRepository repository,
+    ProductEventPublisher publisher) : IProductService
 {
     public async Task<IEnumerable<ProductResponse>> GetAllAsync()
     {
@@ -37,6 +41,16 @@ public class ProductService(IProductRepository repository) : IProductService
 
         await repository.AddAsync(product);
         await repository.SaveChangesAsync();
+
+        // Publica o evento no RabbitMQ
+        await publisher.PublishProductCreatedAsync(new ProductCreatedEvent(
+            product.Id,
+            product.Name,
+            product.Description,
+            product.Price,
+            product.Stock,
+            product.CreatedAt
+        ));
 
         return new ProductResponse(
             product.Id, product.Name, product.Description, product.Price, product.Stock, product.CreatedAt

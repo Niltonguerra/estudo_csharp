@@ -10,8 +10,13 @@ services:
       - Jwt__Issuer=${JWT_ISSUER}
       - Jwt__Audience=${JWT_AUDIENCE}
       - ConnectionStrings__Default=Host=db;Port=5432;Database=products_db;Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+      - RabbitMQ__Host=${RABBITMQ_HOST}
+      - RabbitMQ__Username=${RABBITMQ_USERNAME}
+      - RabbitMQ__Password=${RABBITMQ_PASSWORD}
     depends_on:
       db:
+        condition: service_healthy
+      rabbitmq:
         condition: service_healthy
     networks:
       - products_net
@@ -32,16 +37,39 @@ services:
       - Jwt__Issuer=${JWT_ISSUER}
       - Jwt__Audience=${JWT_AUDIENCE}
       - ConnectionStrings__Default=Host=db;Port=5432;Database=products_db;Username=${POSTGRES_USER};Password=${POSTGRES_PASSWORD}
+      - RabbitMQ__Host=${RABBITMQ_HOST}
+      - RabbitMQ__Username=${RABBITMQ_USERNAME}
+      - RabbitMQ__Password=${RABBITMQ_PASSWORD}
     command: dotnet watch run --no-launch-profile
     depends_on:
       db:
+        condition: service_healthy
+      rabbitmq:
         condition: service_healthy
     networks:
       - products_net
     dns:
       - 8.8.8.8
       - 8.8.4.4
-  
+
+  notifications-worker-dev:
+    image: mcr.microsoft.com/dotnet/sdk:8.0
+    container_name: notifications_worker_dev
+    working_dir: /worker
+    volumes:
+      - ./NotificationsWorker:/worker
+      - nuget-cache:/root/.nuget/packages
+    environment:
+      - RabbitMQ__Host=${RABBITMQ_HOST}
+      - RabbitMQ__Username=${RABBITMQ_USERNAME}
+      - RabbitMQ__Password=${RABBITMQ_PASSWORD}
+    command: dotnet watch run --no-launch-profile
+    depends_on:
+      rabbitmq:
+        condition: service_healthy
+    networks:
+      - products_net
+
   migrator:
     build:
       context: .
@@ -56,6 +84,23 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    networks:
+      - products_net
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
+    container_name: products_rabbitmq
+    ports:
+      - "5672:5672"   # porta AMQP
+      - "15672:15672" # porta do painel de administração
+    environment:
+      - RABBITMQ_DEFAULT_USER=${RABBITMQ_USERNAME}
+      - RABBITMQ_DEFAULT_PASS=${RABBITMQ_PASSWORD}
+    healthcheck:
+      test: ["CMD", "rabbitmq-diagnostics", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
     networks:
       - products_net
 
@@ -80,7 +125,7 @@ services:
 
 volumes:
   postgres_data:
-  nuget-cache:  
+  nuget-cache:
 
 networks:
   products_net:
